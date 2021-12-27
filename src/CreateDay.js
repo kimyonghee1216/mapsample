@@ -18,7 +18,7 @@ export default function CreateDay(){
       })
     }).then(res=>{
       if(res.ok){
-        alert('생성이 완료되었습니다')
+        alert('생성이 완료되었습니다.')
         history('/')
       }
     })
